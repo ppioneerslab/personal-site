@@ -1,0 +1,37 @@
+<svg width="500" height="150" viewBox="0 0 500 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="150" fill="#0a0a0f"/>
+  
+  <!-- Outer hexagon -->
+  <path d="M75 12.5L125 37.5V112.5L75 137.5L25 112.5V37.5L75 12.5Z" stroke="url(#gradient1)" stroke-width="5" fill="none"/>
+  
+  <!-- Inner P shape with pixels -->
+  <rect x="60" y="50" width="7.5" height="7.5" fill="#00d9ff"/>
+  <rect x="60" y="60" width="7.5" height="7.5" fill="#00d9ff"/>
+  <rect x="60" y="70" width="7.5" height="7.5" fill="#00d9ff"/>
+  <rect x="60" y="80" width="7.5" height="7.5" fill="#00d9ff"/>
+  <rect x="60" y="90" width="7.5" height="7.5" fill="#00d9ff"/>
+  <rect x="70" y="50" width="7.5" height="7.5" fill="#a855f7"/>
+  <rect x="80" y="50" width="7.5" height="7.5" fill="#a855f7"/>
+  <rect x="90" y="60" width="7.5" height="7.5" fill="#ff006e"/>
+  <rect x="90" y="70" width="7.5" height="7.5" fill="#ff006e"/>
+  <rect x="80" y="70" width="7.5" height="7.5" fill="#a855f7"/>
+  <rect x="70" y="70" width="7.5" height="7.5" fill="#a855f7"/>
+  
+  <!-- Text -->
+  <text x="162.5" y="80" font-family="Arial, sans-serif" font-size="45" font-weight="bold" fill="url(#gradient2)">Pixel Pioneers</text>
+  <text x="162.5" y="112.5" font-family="Arial, sans-serif" font-size="25" fill="#9ca3af" letter-spacing="5">LAB</text>
+  
+  <defs>
+    <linearGradient id="gradient1" x1="25" y1="12.5" x2="125" y2="137.5">
+      <stop offset="0%" stop-color="#00d9ff"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ff006e"/>
+    </linearGradient>
+    <linearGradient id="gradient2" x1="162.5" y1="50" x2="450" y2="50">
+      <stop offset="0%" stop-color="#00d9ff"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ff006e"/>
+    </linearGradient>
+  </defs>
+</svg>
