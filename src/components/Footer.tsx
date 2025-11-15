@@ -72,28 +72,11 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Newsletter */}
+          {/* Social Links */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Stay Updated</h3>
-            <p className="text-gray-400 text-sm mb-4">
-              Get the latest updates on web development trends and our projects.
-            </p>
-            <div className="flex gap-2">
-              <input
-                type="email"
-                placeholder="your@email.com"
-                className="flex-1 px-4 py-2 bg-white/5 border border-white/10 rounded-lg text-sm focus:outline-none focus:border-[#00d9ff] transition-colors"
-              />
-              <motion.button
-                className="px-4 py-2 bg-gradient-to-r from-[#00d9ff] to-[#a855f7] rounded-lg font-semibold text-sm whitespace-nowrap"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                Subscribe
-              </motion.button>
-            </div>
+            <h3 className="text-white font-semibold mb-4">Follow Us</h3>
             {/* Social Icons */}
-            <div className="flex gap-3 mt-4">
+            <div className="flex gap-3">
               {/* Instagram */}
               <motion.a
                 href="#"

@@ -58,8 +58,10 @@ export default function ContactSection() {
             
             <div className="space-y-6">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-gradient-to-br from-[#00d9ff] to-[#a855f7] rounded-lg flex items-center justify-center text-2xl flex-shrink-0">
-                  📧
+                <div className="w-12 h-12 bg-gradient-to-br from-[#00d9ff] to-[#0088cc] rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
                 </div>
                 <div>
                   <h4 className="text-white font-semibold mb-1">Email</h4>
@@ -68,8 +70,10 @@ export default function ContactSection() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-gradient-to-br from-[#a855f7] to-[#ff006e] rounded-lg flex items-center justify-center text-2xl flex-shrink-0">
-                  📍
+                <div className="w-12 h-12 bg-gradient-to-br from-[#a855f7] to-[#9333ea] rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
                 </div>
                 <div>
                   <h4 className="text-white font-semibold mb-1">Location</h4>
@@ -78,21 +82,16 @@ export default function ContactSection() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-gradient-to-br from-[#ff006e] to-[#00d9ff] rounded-lg flex items-center justify-center text-2xl flex-shrink-0">
-                  ⏰
+                <div className="w-12 h-12 bg-gradient-to-br from-[#ff006e] to-[#d90058] rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
                 </div>
                 <div>
-                  <h4 className="text-white font-semibold mb-1">Working Hours</h4>
-                  <p className="text-gray-400">Mon - Fri: 9:00 AM - 6:00 PM</p>
+                  <h4 className="text-white font-semibold mb-1">Disponibilità</h4>
+                  <p className="text-gray-400">24/7 - Sempre disponibili</p>
                 </div>
               </div>
-            </div>
-
-            <div className="mt-8 p-6 bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl">
-              <p className="text-gray-300 text-sm leading-relaxed">
-                <span className="text-[#00d9ff] font-semibold">Quick response guaranteed!</span> We typically 
-                respond to all inquiries within 24 hours.
-              </p>
             </div>
           </motion.div>
 

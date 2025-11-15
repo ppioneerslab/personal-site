@@ -63,3 +63,9 @@ a {
 input, textarea {
   cursor: text;
 }
+
+/* Dotted pattern for backgrounds */
+.dotted-pattern {
+  background-image: radial-gradient(circle, rgba(0, 217, 255, 0.4) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
